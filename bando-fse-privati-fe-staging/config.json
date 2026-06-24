@@ -1,0 +1,23 @@
+{
+  "backendUrl": "/",
+  "apiPath": "/api",
+  "clientId": "r_toscan__gestionefseprivati",
+  "redirectUri": "https://gestionefseprivati-test.sanita.toscana.it/bando-fse-privati-fe/callback",
+  "postLogoutRedirectUri": "https://gestionefseprivati-test.sanita.toscana.it/bando-fse-privati-fe/callback",
+  "tokenUrl": "https://trial.auth.regione.toscana.it/auth-trial/realms/rt/protocol/openid-connect/token",
+  "authUrl": "https://trial.auth.regione.toscana.it/auth-trial/realms/rt/protocol/openid-connect/auth",
+  "unauthUrl": "https://trial.auth.regione.toscana.it/auth-trial/realms/rt/protocol/openid-connect/logout",
+  "userinfoUrl": "https://trial.auth.regione.toscana.it/auth-trial/realms/rt/protocol/openid-connect/userinfo",
+  "scopes": "default",
+  "allowedFiscalCodes": [
+    "TINIT-CZZGLI99T51H579M",
+    "TINIT-CLBRCR96M22H501X",
+    "TINIT-PGLGRG00H46H501M",
+    "TINIT-MNSFNC96C07F205M",
+    "TINIT-CNSLNZ98P02C632S",
+    "TINIT-MLCRST98T50L103T",
+    "TINIT-VCHBRC99R69H199M",
+    "TINIT-PTRLNZ94T05H501C",
+    "TINIT-FLPCPT69A65Z336P"
+  ]
+}
