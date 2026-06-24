@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    environment:
+      DB_HOST: rrtgn-sis-pg01-s01.rtpc.sct.toscana.it
+      DB_PORT: 5432
+      DB_NAME: bando-fse-privati-db
+      DB_USER: bando-fse-privati-db_rw
+      DB_PASSWORD: 5SQp1k5cX4T2
+      APP_LOG_LEVEL: INFO
+    ports:
+      - "8000:8000"
+    command: "uvicorn app.main:app --host 0.0.0.0 --port 8000 --proxy-headers --forwarded-allow-ips='*'"
